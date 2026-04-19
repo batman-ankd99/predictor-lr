@@ -3,7 +3,7 @@ class myLR:
         self.m =  None
         self.b = None
 
-    def fit(self, train_x, train_y):
-        pass
+    def fit(self, x_train, y_train):
+        print(x_train)
     def predict(self, x_test):
-        pass     
+        print(x_test)
