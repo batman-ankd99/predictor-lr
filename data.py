@@ -26,6 +26,3 @@ lr.fit(x_train, y_train)
 print("test samples below of x, predict y")
 print("value of y for ", x_test[0], "is" )
 print(lr.predict(x_test[0]))
-
-print("till here we can say values are being passed in properly in fit and predict functions.")
-# next caluculate mean of x, y - which is used in caluclating m and b (slope and intercept of best fit line)
